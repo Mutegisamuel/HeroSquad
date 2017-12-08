@@ -3,7 +3,7 @@ apply plugin: 'application'
 
 archivesBaseName = "friend-letter"
 version = '1.0'
-mainClassName = "app"
+mainClassName = "App"
 
 repositories {
   mavenCentral()
