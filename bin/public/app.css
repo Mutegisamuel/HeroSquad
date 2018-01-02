@@ -1,3 +1,58 @@
+@import url(https://fonts.googleapis.com/css?family=Bangers);
+
+body{
+  background:#fff;
+  font-family: 'Bangers', cursive;
+  font-size: 25px;
+}
+.box{
+  margin:25px;
+  width:250px;
+  height:250px;
+  background:#fff;
+  border: solid black;
+  border-color: black;
+  float:left;
+}
+
+.box1{
+  border-width: 3px 4px 3px 5px;
+  border-radius:95% 4% 92% 5%/4% 95% 6% 95%;
+  transform: rotate(2deg);
+}
+.box2{
+  width:350px;
+  border-width: 3px 3px 5px 5px;
+  border-radius:4% 95% 6% 95%/95% 4% 92% 5%;
+  transform: rotate(-2deg);
+}
+
+.box3{
+  border-width: 5px 3px 3px 5px;
+  border-radius:95% 4% 97% 5%/4% 94% 3% 95%;
+  transform: rotate(2deg);
+}
+
+.oddboxinner{
+  margin:15px;
+  transform: rotate(-2deg);
+}
+.evenboxinner{
+  transform: rotate(2deg);
+  margin:15px;
+  padding:0 5px;
+  float:right;
+  background:#ddd;
+  border:1px solid #222;
+  box-shadow:3px 3px 0 #222;
+}
+.Header{
+  background-color: grey;
+}
+#tittle{
+  margin-left: 20%;
+}
+
 .wrapper {
   display: grid;
   grid-gap: 10px;
@@ -17,7 +72,7 @@
 .news-item {
   display: inline-block;
   min-height: 400px;
-  width: 50%;
+  width: 100%;
 }
 
 .hero-item {
@@ -25,7 +80,7 @@
 }
 
 .standard-item:nth-child(2) {
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/53819/re7-chris-large.jpg");
+  background-image: url("http://cdn1-www.superherohype.com/assets/uploads/2013/11/JLSH.jpg");
 }
 
 .standard-item:nth-child(3) {
